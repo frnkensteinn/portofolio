@@ -13,7 +13,7 @@ export function AboutSection() {
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
         <Reveal className="space-y-5 text-base leading-8 text-zinc-600 dark:text-zinc-400">
           <p>
-            Most of my web work has been for organization needs: event pages, registration flows, and interface sections that need to be shipped on a real timeline.
+            I usually work on campus organization websites, including event pages, registration forms, and small interface sections.
           </p>
           <p>
             I study {education.program} at {education.school}, and I use campus projects to practice front-end fundamentals, handoff, and small-team delivery.
