@@ -7,8 +7,6 @@ export const profile = {
   email: "18225021@mahasiswa.itb.ac.id",
   github: "https://github.com/frnkensteinn",
   linkedin: "https://www.linkedin.com/in/ihsanfa/",
-  summary:
-    "Ihsan Fadhlih Akbar is an Information Systems and Technology student at ITB. Most of his recent work is front-end development for campus organizations and event websites.",
 };
 
 export const education = {
@@ -50,7 +48,7 @@ export const skillGroups = [
 
 export const experiences = [
   {
-    title: "Member",
+    title: "Intern",
     organization: "URO ITB - Ganesis Programming Division",
     period: "May 2026 - Present",
     location: "Bandung, Indonesia",

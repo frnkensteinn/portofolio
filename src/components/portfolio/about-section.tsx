@@ -9,7 +9,6 @@ export function AboutSection() {
       <SectionHeading
         eyebrow="01 / About"
         title="Front-end, campus work, and the details in between."
-        description={profile.summary}
       />
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
         <Reveal className="space-y-5 text-base leading-8 text-zinc-600 dark:text-zinc-400">
