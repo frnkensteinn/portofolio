@@ -11,10 +11,10 @@ export function ContactSection() {
       <Reveal className="container-page text-center">
         <p className="eyebrow">04 / Contact</p>
         <h2 className="mx-auto mt-5 max-w-4xl text-4xl font-semibold leading-tight tracking-[-0.04em] text-zinc-950 dark:text-stone-50 sm:text-6xl">
-          Want to talk about a project?
+          Need a campus web project built?
         </h2>
         <p className="muted-text mx-auto mt-6 max-w-2xl leading-8">
-          Email me or reach out on GitHub and LinkedIn. I am open to web projects, event sites, and team work.
+          Email me or reach out on GitHub and LinkedIn. I am open to event sites, organization pages, and small front-end work.
         </p>
         <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
           <ContactLink href={`mailto:${profile.email}`} label="Email" icon={<Mail className="size-4" />} />

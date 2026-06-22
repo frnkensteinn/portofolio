@@ -10,8 +10,8 @@ export function ProjectsSection() {
     <section id="projects" className="container-page section-pad">
       <SectionHeading
         eyebrow="03 / Projects"
-        title="Websites I have worked on."
-        description="A few shipped projects for organizations and events, with a focus on usable pages and registration flows."
+        title="Shipped event websites."
+        description="A short list of projects with public links and the actual front-end scope stated plainly."
       />
       <div className="grid gap-6 lg:grid-cols-2">
         {projects.map((project, index) => (

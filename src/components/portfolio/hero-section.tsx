@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section id="home" className="container-page grid min-h-screen items-center gap-14 pb-20 pt-32 lg:grid-cols-[1.05fr_0.95fr] lg:pt-24">
       <Reveal>
-        <p className="eyebrow">Portfolio / Front-end Developer</p>
+        <p className="eyebrow">ITB Student / Front-end</p>
         <h1 className="mt-6 max-w-4xl text-5xl font-semibold leading-[0.95] tracking-[-0.06em] text-zinc-950 dark:text-stone-50 sm:text-6xl lg:text-7xl">
           {profile.name}
         </h1>
@@ -49,7 +49,7 @@ export function HeroSection() {
             </p>
             <p className="pl-5">{`name: "${profile.name}",`}</p>
             <p className="pl-5">{`school: "${education.school}",`}</p>
-            <p className="pl-5">{`focus: "responsive web interfaces",`}</p>
+            <p className="pl-5">{`focus: "event websites and registration flows",`}</p>
             <p className="pl-5">{`stack: ["Next.js", "TypeScript", "Tailwind CSS"],`}</p>
             <p>{"};"}</p>
           </div>

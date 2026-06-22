@@ -9,8 +9,8 @@ export function ExperienceSection() {
       <div className="container-page section-pad">
         <SectionHeading
           eyebrow="02 / Experience"
-          title="Roles where I learned by doing."
-          description="A mix of web work, organization roles, and leadership responsibilities from campus and school activities."
+          title="Organization and web roles."
+          description="Recent roles from campus organizations and school activities, with the scope kept specific."
         />
         <div className="border-t border-zinc-200 dark:border-zinc-800">
           {experiences.map((experience) => (

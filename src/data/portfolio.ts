@@ -2,7 +2,7 @@ export const profile = {
   name: "Ihsan Fadhlih Akbar",
   initials: "I",
   role: "Information Systems and Technology Student",
-  headline: "I build responsive front ends for campus projects, events, and small teams.",
+  headline: "I build event and organization websites, mostly with React, Next.js, and Tailwind CSS.",
   location: "Bandung, Indonesia",
   email: "18225021@mahasiswa.itb.ac.id",
   github: "https://github.com/frnkensteinn",
@@ -53,8 +53,8 @@ export const experiences = [
     period: "May 2026 - Present",
     location: "Bandung, Indonesia",
     description:
-      "Working with the Ganesis programming division on robotics-related software.",
-    highlights: ["Taking part in programming tasks and technical discussions with the team."],
+      "Learning the programming workflow inside URO ITB's Ganesis division while contributing to robotics-related software tasks.",
+    highlights: ["Joining technical discussions and taking small programming assignments from the team."],
   },
   {
     title: "Web Development Explorer",
@@ -62,8 +62,8 @@ export const experiences = [
     period: "May 2026 - Present",
     location: "Bandung, Indonesia",
     description:
-      "Learning web development with Google Developer Groups on Campus ITB.",
-    highlights: ["Joining learning sessions and building up practical web development skills."],
+      "Following GDGOC ITB web development sessions and applying the material through small front-end exercises.",
+    highlights: ["Practicing layout, component structure, and basic web project workflow."],
   },
   {
     title: "IT Staff",
@@ -71,8 +71,8 @@ export const experiences = [
     period: "Jan 2026 - Mar 2026",
     location: "Bandung, Indonesia",
     description:
-      "Built front-end sections for the official PEMIRA KM-ITB 2026 website.",
-    highlights: ["Best IT Staff Award recipient."],
+      "Helped build front-end sections for the official PEMIRA KM-ITB 2026 website.",
+    highlights: ["Worked on interface sections for the election website and received Best IT Staff."],
   },
   {
     title: "HR Staff",
@@ -80,8 +80,8 @@ export const experiences = [
     period: "Jan 2026 - May 2026",
     location: "Bandung, Indonesia",
     description:
-      "Handled staff monitoring, administration, and organizer development for The Sandbox 3.0.",
-    highlights: ["Kept staff records organized and helped with performance evaluation."],
+      "Handled staff monitoring and administration for The Sandbox 3.0.",
+    highlights: ["Kept staff records organized and helped prepare performance evaluation notes."],
   },
   {
     title: "HR Staff",
@@ -128,7 +128,7 @@ export const projects = [
     period: "2026",
     href: "https://pemirakmitb.com/",
     description:
-      "Worked on the PEMIRA KM-ITB 2026 website front end, including responsive navigation, footer components, custom fonts, and visual assets.",
+      "Implemented front-end sections for the KM ITB election site, including navigation, footer components, font setup, and visual asset integration.",
     stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
   },
   {
@@ -137,7 +137,7 @@ export const projects = [
     period: "2024",
     href: "https://batikbirru.vercel.app/",
     description:
-      "Designed and built the official website from scratch for event information and competition registration, serving 3,056 registrants.",
+      "Built the event information and registration website for Batik Birru 13 with Google Forms integration, supporting 3,056 registrants.",
     stack: ["HTML", "Tailwind CSS", "JavaScript", "Google Forms"],
   },
 ];

@@ -8,22 +8,22 @@ export function AboutSection() {
     <section id="about" className="container-page section-pad">
       <SectionHeading
         eyebrow="01 / About"
-        title="Front-end, campus work, and the details in between."
+        title="Small web projects for campus teams."
       />
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
         <Reveal className="space-y-5 text-base leading-8 text-zinc-600 dark:text-zinc-400">
           <p>
-            I spend most of my time turning designs and event needs into websites that are clear, responsive, and easy to maintain.
+            Most of my web work has been for organization needs: event pages, registration flows, and interface sections that need to be shipped on a real timeline.
           </p>
           <p>
-            I study {education.program} at {education.school}, and I keep learning through real projects with real users.
+            I study {education.program} at {education.school}, and I use campus projects to practice front-end fundamentals, handoff, and small-team delivery.
           </p>
         </Reveal>
 
         <Reveal className="overflow-hidden rounded border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
           <InfoRow label="Education" title={education.school} detail={`${education.program} - ${education.period}`} />
           <InfoRow label="Focus" title="Front-end Development" detail="Responsive web, UI implementation, accessibility basics" />
-          <InfoRow label="Location" title={profile.location} detail="Open to project and organization work" />
+          <InfoRow label="Location" title={profile.location} detail="Open to campus and event web projects" />
           {skillGroups.map((group) => (
             <InfoRow key={group.title} label={group.title} title={group.items.join(", ")} />
           ))}

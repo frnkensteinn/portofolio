@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Ihsan Fadhlih Akbar",
   },
   description:
-    "Portfolio of Ihsan Fadhlih Akbar, an Information Systems and Technology student at ITB who works on front-end web projects.",
+    "Portfolio of Ihsan Fadhlih Akbar, an ITB Information Systems and Technology student building front-end websites for campus events and organizations.",
   authors: [{ name: "Ihsan Fadhlih Akbar" }],
   creator: "Ihsan Fadhlih Akbar",
   keywords: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ihsan Fadhlih Akbar | Portfolio",
     description:
-      "Front-end web projects and organization work by Ihsan Fadhlih Akbar, an IST student at ITB.",
+      "Event websites and organization work by Ihsan Fadhlih Akbar, an IST student at ITB.",
     type: "website",
     locale: "en_US",
     url: siteUrl,
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ihsan Fadhlih Akbar | Portfolio",
     description:
-      "A small portfolio of front-end projects, event websites, and organization work.",
+      "Front-end websites for campus events, organizations, and registration flows.",
   },
   robots: {
     index: true,
