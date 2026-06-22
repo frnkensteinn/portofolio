@@ -4,7 +4,7 @@ export const profile = {
   role: "Information Systems and Technology Student",
   headline: "I build event and organization websites, mostly with React, Next.js, and Tailwind CSS.",
   location: "Bandung, Indonesia",
-  email: "18225021@mahasiswa.itb.ac.id",
+  email: "ihsanfadhlihakbar@gmail.com",
   github: "https://github.com/frnkensteinn",
   linkedin: "https://www.linkedin.com/in/ihsanfa/",
 };
@@ -24,10 +24,6 @@ export const skills = [
   "Next.js",
   "Tailwind CSS",
   "Git",
-  "GitHub",
-  "Python",
-  "C++",
-  "Microsoft Excel",
   "Vercel",
 ];
 
