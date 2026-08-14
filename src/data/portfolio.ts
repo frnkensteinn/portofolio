@@ -60,8 +60,7 @@ export const experiences = [
     period: "Aug 2026 - Present",
     location: "Bandung, Indonesia",
     description:
-      "Recently joined the Human Resource and Development division at Inkubator IT; currently undergoing onboarding and internal division alignment.",
-    highlights: ["Participating in internal division onboarding and alignment sessions."],
+      "Recently joined the Human Resource and Development division at Inkubator IT"
   },
   {
     title: "Front-End Developer",
