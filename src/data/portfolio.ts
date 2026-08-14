@@ -55,6 +55,15 @@ export const skillGroups = [
 
 export const experiences = [
   {
+    title: "Human Resource & Development Staff",
+    organization: "Inkubator IT",
+    period: "Aug 2026 - Present",
+    location: "Bandung, Indonesia",
+    description:
+      "Recently joined the Human Resource and Development division at Inkubator IT; currently undergoing onboarding and internal division alignment.",
+    highlights: ["Participating in internal division onboarding and alignment sessions."],
+  },
+  {
     title: "Front-End Developer",
     organization: "OSKM ITB 2026 (KAT ITB)",
     period: "Jul 2026 - Present",
@@ -147,7 +156,7 @@ export const projects = [
     title: "OSKM ITB 2026 - Web Portofolio & Interactive Map",
     type: "Team Project",
     period: "2026",
-    href: "https://github.com/KAT-ITB-2026/information-oskm-2026",
+    href: "https://portofolio-kat.itb.ac.id/",
     description:
       "Built the vector-tile interactive campus map (MapLibre GL JS + OpenFreeMap) and Day-1 weather forecast system for the official ITB orientation website in a high-scale React / TypeScript monorepo.",
     stack: ["React", "TypeScript", "MapLibre GL JS", "Tailwind CSS", "Vite", "Vitest"],
