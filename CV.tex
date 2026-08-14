@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Ihsan Fadhlih Akbar
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ihsan Fadhlih Akbar} \\ \vspace{1pt}
+    {\underline{18225021@mahasiswa.itb.ac.id}} $|$ 
+    \href{https://www.linkedin.com/in/ihsanfa/}{\underline{linkedin.com/in/ihsanfa}} $|$
+    \href{https://github.com/frnkensteinn}{\underline{github.com/frnkensteinn}}
+\end{center}
+
+%-----------SUMMARY / PERSONAL MISSION STATEMENT-----------
+\section{Summary}
+  \small{
+    As an undergraduate Systems and Information Technology student at ITB, my mission is to bridge technology and human collaboration by building accessible web applications. Guided by my core values of integrity, continuous growth, and collaborative impact, I leverage my strengths as an insatiable learner capable of maintaining deep, prolonged focus once locked into complex technical challenges. To manage my tendency for procrastination and susceptibility to distractions, I proactively employ structured task-blocking and strict milestone management, channeling these strategies into high-performing engineering teams.
+  }
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Institut Teknologi Bandung}{Bandung, Indonesia}
+      {Undergraduate Student in Systems and Information Technology}{Aug. 2025 -- Present}
+    \resumeSubheading
+      {SMAN 1 Padang Panjang}{Padang Panjang, Indonesia}
+      {Curriculum Merdeka (General Major)}
+      {Jul. 2022 -- Mar. 2025}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Internal-External Staff}{Feb. 2026 -- July 2026}
+      {IMPACT 6.0}{Bandung, Indonesia}
+      \resumeItemListStart
+        \item {Served as the primary liaison between the committee and key institutional bodies (ITB administration, and other
+  faculties) to coordinate event logistics, manage official correspondence, and secure venue permits.}
+        \item {Coordinated communication and managed relations with participating schools, delivering key competition information and
+  providing on-site support to ensure a seamless experience for participants throughout the event.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {HR Staff}{Jan. 2026 -- May. 2026}
+      {The Sandbox 3.0 by IEEE ITB SB}{Bandung, Indonesia}
+      \resumeItemListStart
+        \resumeItem{Monitored organizer staff performance and resolved personal complaints to maintain team synergy.}
+        \resumeItem{Managed administrative staff records, contracts, and comprehensive performance evaluations.}
+        \resumeItem{Facilitated technical and soft skill development initiatives for the organizing committee.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {HR Staff}{Dec. 2025 -- Feb. 2026}
+      {Zoom-In ITB}{Padang, Indonesia}
+      \resumeItemListStart
+        \resumeItem{Managed committee administration, tracked attendance, and documented staff performance.}
+        \resumeItem{Conducted objective performance evaluations and compiled data-driven assessments for reporting.}
+        \resumeItem{Supported internal post-event coordination, including Selection of Best Staff and certification.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Head of Majelis Permusyawaratan Asrama}{Jul. 2024 -- Jan. 2025}
+      {Grand Dormitory Assembly}{Padang Panjang, Indonesia}
+      \resumeItemListStart
+        \resumeItem{Led the Grand Dormitory Assembly to oversee democratic election and leadership selection processes.}
+        \resumeItem{Organized the Inauguration Ceremony for the newly elected Dormitory Council Chair, ensuring transition.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Supervisor of Public Relations and Literary-Cultural Division}{Dec. 2024 -- Dec. 2025}
+      {Majelis Permusyawaratan Kelas}{Padang Panjang, Indonesia}
+      \resumeItemListStart
+        \resumeItem{Oversaw school-wide class coordination and managed communication flow for student announcements.}
+        \resumeItem{Initiated cultural programs, traditional dress days, and creative contests to foster student engagement.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Frontend Engineer --- OSKM ITB 2026} $|$ \emph{React 19, TypeScript, MapLibre GL JS, Vitest}}{Jul. 2026 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a responsive vector-tile interactive campus map for ITB Jatinangor using MapLibre GL JS and OpenFreeMap, featuring custom GeoJSON layers, interactive building markers with glowing hover animations, and a dynamic collapsible legend.}
+            \resumeItem{Implemented real-time user location tracking using Geolocation Web API with robust permission handling (granted, denied, timeout), smooth camera transitions (easeTo / fitBounds), and dynamic viewport offset calculations for mobile and desktop UI.}
+            \resumeItem{Designed and built an in-page weather forecast overlay to render real-time weather metrics (temperature, humidity, rain probability, heat index) with explicit fallback states for missing telemetry data.}
+            \resumeItem{Wrote extensive component and integration unit tests using Vitest and React Testing Library (RTL), simulating user interactions, map bounds fitting, edge cases, and Geolocation API mocking.}
+            \resumeItem{Collaborated within a 28-developer monorepo setup (pnpm), conducting peer code reviews for file upload components and strictly adhering to automated CI/CD quality gates (passing lint/tests \& Greptile AI review score $\ge$ 4/5).}
+            \resumeItem{Awarded Best Staff for outstanding technical performance, user flow implementation, and engineering contributions to the orientation web portal.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Frontend Developer --- PEMIRA KM-ITB 2026} $|$ \emph{React, Tailwind CSS, JavaScript, Git}}{Jan. 2026 -- Apr. 2026}
+          \resumeItemListStart
+            \resumeItem{Designed and developed the global responsive Navigation Bar (Navbar) and Footer components using React and Tailwind CSS, ensuring mobile-first responsiveness, high accessibility, and cross-browser compatibility.}
+            \resumeItem{Implemented dynamic menu interactions and seamless client-side navigation to improve overall user flow across the election portal.}
+            \resumeItem{Awarded the Best IT Staff Award in recognition of outstanding technical contributions and UI component execution.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Batik Birru 13th Registration Website} $|$ \emph{HTML, CSS, JavaScript, Spreadsheet API}}{Jun. 2024 -- Nov. 2024}
+          \resumeItemListStart
+            \resumeItem{Designed and developed the registration site, helping secure a record 3,056 registrants.}
+            \resumeItem{Built an automated spreadsheet sorting system to filter participant records by category.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C, C++, SQL, TypeScript, JavaScript, HTML/CSS} \\
+     \textbf{Frameworks/Libraries}{: React 19, Tailwind CSS v4, MapLibre GL JS, OpenFreeMap, Node.js, TanStack Query, Vitest, React Testing Library} \\
+     \textbf{Developer Tools}{: Git, GitHub Actions, Vite, Monorepo (pnpm), OpenAPI, Biome, Greptile AI, VS Code, Microsoft Excel} \\
+     \textbf{Languages Proficiency}{: Indonesian (Native), English (Intermediate - Reading Focus)}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}

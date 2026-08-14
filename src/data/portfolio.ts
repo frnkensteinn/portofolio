@@ -16,33 +16,58 @@ export const education = {
 };
 
 export const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "TypeScript",
+  "JavaScript",
   "React",
   "Next.js",
   "Tailwind CSS",
+  "MapLibre GL JS",
+  "HTML",
+  "CSS",
   "Git",
+  "Vitest",
+  "Vite",
   "Vercel",
 ];
 
 export const skillGroups = [
   {
     title: "Front-end",
-    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"],
+    items: [
+      "TypeScript",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "MapLibre GL JS",
+      "HTML/CSS",
+    ],
+  },
+  {
+    title: "Testing & Tools",
+    items: ["Vitest", "Vite", "Git", "GitHub Actions", "Biome", "Vercel"],
   },
   {
     title: "Programming",
-    items: ["Python", "C++"],
-  },
-  {
-    title: "Tools",
-    items: ["Git", "GitHub", "Microsoft Excel", "Vercel"],
+    items: ["Python", "C++", "C", "SQL"],
   },
 ];
 
 export const experiences = [
+  {
+    title: "Front-End Developer",
+    organization: "OSKM ITB 2026 (KAT ITB)",
+    period: "Jul 2026 - Present",
+    location: "Bandung, Indonesia",
+    description:
+      "Developed interactive front-end web features for the official OSKM ITB 2026 Web Portofolio within a 28-engineer monorepo setup.",
+    highlights: [
+      "Engineered an interactive campus map for ITB Jatinangor using MapLibre GL JS & OpenFreeMap with custom animated building markers, glowing hover states, collapsible legend, and detail sheets.",
+      "Implemented real-time geolocation tracking with granular permission error handling (denied, timeout) and smooth camera repositioning.",
+      "Built an in-page Day 1 weather forecast overlay with HMME Atmosphaira telemetry metrics and graceful fallback states for missing data.",
+      "Adhered to strict automated CI/CD quality gates with Vitest/RTL unit testing, peer code reviews, and Greptile AI review scores ≥ 4/5.",
+    ],
+  },
   {
     title: "Intern",
     organization: "URO ITB - Ganesis Programming Division",
@@ -118,6 +143,15 @@ export const experiences = [
 ];
 
 export const projects = [
+  {
+    title: "OSKM ITB 2026 - Web Portofolio & Interactive Map",
+    type: "Team Project",
+    period: "2026",
+    href: "https://github.com/KAT-ITB-2026/information-oskm-2026",
+    description:
+      "Built the vector-tile interactive campus map (MapLibre GL JS + OpenFreeMap) and Day-1 weather forecast system for the official ITB orientation website in a high-scale React / TypeScript monorepo.",
+    stack: ["React", "TypeScript", "MapLibre GL JS", "Tailwind CSS", "Vite", "Vitest"],
+  },
   {
     title: "PEMIRA KM-ITB 2026",
     type: "Team Project",
